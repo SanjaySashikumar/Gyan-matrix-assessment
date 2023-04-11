@@ -1,51 +1,63 @@
 body{
 background-image: url('images/bg-image.jpg');
-font-family:Arial,sans-serif;
-}
-.container{
-width:400px;
-margin: 0 auto;
-padding: 20px;
-
-border-color: black;
-margin-top: 20%;
+Width:1106px;
+Height:800px;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
-h{
-    text-align: center;
-    font-size:40px;
-    padding-top: 20px;
+.box{
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1{
-text-align: center;
-margin-bottom: 20px;
+.box img{
+    height: 80px;
+    padding-top: 8px;
+    padding-left: 58px;
+    
 }
-form{
-display: flex;
-flex-direction: column;
-}
-label{
-margin-bottom: 10px;
-}
-input[type="text"],
-input[type="password"]{
-padding:10px;
-margin-bottom:20px;
-border:none;
-border-radius:5px;
-}
-button[type="submit"]
-{
-padding : 10px;
-background: pink;
-color: white;
-border:none;
-border-radius:5px;
-cursor:pointer;
-transition: background 0.3s ease;
+.box h1{
+    color: #ffffff;
+    position:absolute;
+    
+    padding-top: 212px;
+    padding-left: 222px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button[type="Submit"]:hover {
-background: pink;
+.box form{
+    padding-top: 250px;
+    padding-left: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
 }
+.box form input{
+
+    border: 1px solid red;
+    border-radius:50px;
+    font-size: 15px;
+    padding:10px;
+    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+    background-blend-mode: overlay;
+}
+.box ::placeholder{
+    color: white;
+}
+.box form button{
+    height: 47px;
+    background: #FFCD2D;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border:1px solid #FFCD2D;
+}
+
+.footer{
+    position:absolute;
+    bottom:22px;
+    right:41.44px;
+    color:white;
+}
+
